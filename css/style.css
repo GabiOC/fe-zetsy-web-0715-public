@@ -17,4 +17,69 @@ body {
 	padding: 0 45px 20px;
 }
 
+a {
+	text-decoration: none;
+}
+
 /* Write all remaining styles here */
+
+/*Header styles*/
+
+h1 {
+	font-size: 5em;
+	font-family: 'Baskerville', serif;
+	font-weight: normal;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 5px;
+}
+
+h1 > a:link, h1 > a:visited {
+	color: #98ada6;
+}
+
+h1 > a:hover {
+	color: #6B807A;
+}
+
+img#necklace {
+	border: 5px solid #98ada6;
+}
+
+/*'About' and 'Press' section styles*/
+
+h2 {
+	color: #6B807A;
+	font-size: 2em;
+}
+
+p {
+	color: #555;
+}
+
+p > a:link, p > a:visited {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+p > a:hover {
+	text-decoration: underline;
+}
+
+a > img {
+	border: 5px solid #ccc;
+	margin: 0 auto;
+	opacity: 0.4;
+}
+
+a > img:hover {
+	opacity: 1.0;
+}
+
+/*Footer styles*/
+
+footer {
+	text-align: right;
+	font-size: 0.8em;
+	margin: 0 0 20px 0;
+}
